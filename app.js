@@ -3,8 +3,12 @@ const app = express();
 const path = require("path");
 const adminData = require("./routes/admin");
 const shopRouter = require("./routes/shop");
-app.set('view engine', 'pug');
+const expressHbs = require('express-handlebars');
+
+app.engine('hbs', expressHbs.engine({defaultLayout: 'main-layout', extname: '.hbs',layoutsDir: "views/layouts/"}));
+app.set('view engine', 'hbs');
 app.set('views', 'views');
+
 
 app.use(express.urlencoded({extended: false}));
 app.use(express.static(path.join(__dirname, "public")));
