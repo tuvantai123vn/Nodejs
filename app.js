@@ -7,11 +7,11 @@ const server =  http.createServer((req, res) => {
     if(url === '/'){
         res.write('<html>');
         res.write('<head><title>Enter Message</title></head>');
-        res.write('<body><form action="/message" method="POST"><input type="text" name="massage"></input><button>send</button></form></body>')
+        res.write('<body><form action="/users" method="POST"><input type="text" name="users"></input><button>send</button></form></body>')
         res.write('</html>');
         return res.end();
     }
-    if(url === '/message' && method === 'POST'){
+    if(url === '/users' && method === 'POST'){
         const body = [];
         req.on('data', (chunk) => {
             console.log(chunk);
@@ -30,7 +30,7 @@ const server =  http.createServer((req, res) => {
     res.setHeader('contents-Type', 'text/html');
     res.write('<html>');
     res.write('<head><title>My Fist Page</title></head>');
-    res.write('<body><h1>Hello from my Node.js Server!</h1></body>')
+    res.write('<body><ul><li>User 1</li><li>User 2</li></ul></body>')
     res.write('</html>');
     res.end();
 });
