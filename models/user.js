@@ -78,7 +78,7 @@ class User {
   }
   addOrder() {
     const db = getDb();
-    this.getCart()
+    return this.getCart()
       .then((products) => {
         const order = {
           items: products,
@@ -89,7 +89,7 @@ class User {
         };
         return db.collection("orders").insertOne(order);
       })
-      .then((result) => {
+      .then(() => {
         this.cart = { items: [] };
         return db
           .collection("users")
