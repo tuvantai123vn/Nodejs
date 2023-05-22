@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "640d58de07f9b77ff622cef3"
+  },
+  "name": "Áo Thun Levent",
+  "price": "300000",
+  "img1": "https://cf.shopee.vn/file/6015615819c8e7aac1ae915bf79af3d1",
+  "category": "tshirt"
+},{
+  "_id": {
+    "$oid": "640d5a5007f9b77ff622cef4"
+  },
+  "name": "Quần Thun Levent",
+  "price": "250000",
+  "img1": "https://bizweb.dktcdn.net/thumb/1024x1024/100/331/067/products/87172077-490828845140490-813408978422726656-n.jpg?v=1582275230020",
+  "category": "pants"
+},{
+  "_id": {
+    "$oid": "640d5ad207f9b77ff622cef5"
+  },
+  "name": "Sneaker Nike",
+  "price": "650000",
+  "img1": "https://bizweb.dktcdn.net/100/413/756/products/66ab3d05-c806-4ed0-9770-dcbc9fdcb4bc.jpg?v=1675313938047",
+  "category": "sneaker"
+},{
+  "_id": {
+    "$oid": "640d5b1d07f9b77ff622cef6"
+  },
+  "name": "Casio LP-246",
+  "price": "950000",
+  "img1": "https://toptimeshop.co.ke/wp-content/uploads/2022/01/CASIO-WATCH-ANALOGUE-MTP-1239D-7ADF.jpg",
+  "category": "watch"
+},{
+  "_id": {
+    "$oid": "640d5f2807f9b77ff622cef7"
+  },
+  "name": "Headphone TL-350",
+  "price": "300000",
+  "img1": "https://longgem.vn/wp-content/uploads/2021/12/headphone-g606-longgem-1.jpg",
+  "category": "headphone"
+},{
+  "_id": {
+    "$oid": "640d5f8f07f9b77ff622cef8"
+  },
+  "name": "Camera ST-350",
+  "price": "300000",
+  "img1": "https://cdn.mos.cms.futurecdn.net/YSMTPcnMjToATtNyoHyuLJ.jpg",
+  "category": "camera"
+},{
+  "_id": {
+    "$oid": "640d60cf07f9b77ff622cef9"
+  },
+  "name": "Keyboard LB-99",
+  "price": "300000",
+  "img1": "https://cdn.shopify.com/s/files/1/0564/3612/9997/products/hyperx_alloy_core_rgb_es_1_top_down_1600x.jpg?v=1664011586",
+  "category": "keyboard"
+}]

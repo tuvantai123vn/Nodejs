@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "641547d88c68eb956baa26ab"
+  },
+  "category": "Tshirt"
+},{
+  "_id": {
+    "$oid": "641547eb8c68eb956baa26ac"
+  },
+  "category": "Pants"
+},{
+  "_id": {
+    "$oid": "641548138c68eb956baa26ad"
+  },
+  "category": "Sneaker"
+},{
+  "_id": {
+    "$oid": "641548318c68eb956baa26ae"
+  },
+  "category": "Watch"
+},{
+  "_id": {
+    "$oid": "641548448c68eb956baa26af"
+  },
+  "category": "Headphone"
+},{
+  "_id": {
+    "$oid": "641548608c68eb956baa26b0"
+  },
+  "category": "Camera"
+},{
+  "_id": {
+    "$oid": "6415486f8c68eb956baa26b1"
+  },
+  "category": "Keyboard"
+}]
